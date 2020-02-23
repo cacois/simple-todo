@@ -1,6 +1,6 @@
 # simple-todo
 
-A very simple todo app, with styles from [todomvc.com](https://www.todomvc.com). Created as a tool for demonstration of deployment capabilities, specifically with Kubernetes.
+A very simple todo app, with styles from [todomvc.com](http://www.todomvc.com). Created as a tool for demonstration of deployment capabilities, specifically with Kubernetes.
 
 # Design
 
