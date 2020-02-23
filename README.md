@@ -33,3 +33,21 @@ Then start the app:
 ```bash
 $ npm start
 ```
+
+And access at [http://localhost:3000](http://localhost:3000)
+
+# Using Docker
+
+Build the app image:
+
+```bash
+$ docker build -t simple-todo .
+```
+
+Then run:
+
+```bash
+$ docker run -d -p 3000:3000 --name simple-todo simple-todo
+```
+
+And access at [http://localhost:3000](http://localhost:3000)
