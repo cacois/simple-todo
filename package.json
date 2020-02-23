@@ -1,0 +1,27 @@
+{
+  "name": "simpletodo",
+  "version": "0.5.0",
+  "author": "Constantine Aaron Cois <ccois@secureworks.com>",
+  "description": "A simple todo app for demonstration and training purposes",
+  "contributors": [
+    {
+      "name": "Constantine Aaron Cois",
+      "email": "ccois@secureworks.com"
+    }
+  ],
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie": "^0.4.0",
+    "express": ">=4.17.1",
+    "mysql2": "^2.1.0",
+    "todomvc-app-css": "^2.3.0",
+    "todomvc-common": "^1.0.5",
+    "winston": "^3.2.1"
+  },
+  "engines": {
+    "node": ">=10"
+  }
+}

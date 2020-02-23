@@ -1,0 +1,21 @@
+version: "3.1"
+
+services:
+  mysql:
+    image: mysql
+    restart: always
+    command: --default-authentication-plugin=mysql_native_password
+    environment:
+      MYSQL_ROOT_PASSWORD: my-secret-root-pw
+      MYSQL_USER: mysql_user
+      MYSQL_PASSWORD: my-secret-pw
+      MYSQL_DATABASE: simpletodo
+    ports:
+      - 3306:3306
+  adminer:
+    image: adminer
+    restart: always
+    environment:
+      ADMINER_DEFAULT_SERVER: mysql
+    ports:
+      - 8080:8080
