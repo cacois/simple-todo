@@ -1,12 +1,12 @@
 {
   "name": "simpletodo",
   "version": "0.5.0",
-  "author": "Constantine Aaron Cois <ccois@secureworks.com>",
+  "author": "Constantine Aaron Cois <cacois@gmail.com>",
   "description": "A simple todo app for demonstration and training purposes",
   "contributors": [
     {
       "name": "Constantine Aaron Cois",
-      "email": "ccois@secureworks.com"
+      "email": "cacois@gmail.com"
     }
   ],
   "scripts": {
