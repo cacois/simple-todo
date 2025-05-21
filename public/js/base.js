@@ -71,7 +71,7 @@ function writeTodos() {
     data: JSON.stringify(todos),
   }).done(function () {
     console.log('todos successfully written to db');
-  }).fail(function (jqXHR, textStatus, error) {
+  }).fail(function (textStatus, error) {
     console.error(`failed to write todos to db: ${JSON.stringify(textStatus)}, ${JSON.stringify(error)}}`);
   });
 }
